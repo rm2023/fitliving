@@ -4,3 +4,28 @@
 .script{
     text-align: center;
 }
+@media (max-width: 768px){
+    .icon{
+      width: 100%;
+      padding-left: 30px; /* adjust padding as needed */
+      padding-right: 20px; /* adjust padding as needed */
+    }
+    .mtitle{
+        width: 100%;
+        padding-left: 30px; /* adjust padding as needed */
+        padding-right: 20px; /* adjust padding as needed */
+      }
+    }
+    
+    @media (max-width: 480px) {
+      icon{
+        width: 100%;
+        padding-left: 30px; /* adjust padding as needed */
+        padding-right: 20px; /* adjust padding as needed */
+      }}
+      .mtitle{
+        width: 100%;
+        padding-left: 30px; /* adjust padding as needed */
+        padding-right: 20px; /* adjust padding as needed */
+      }
+     
