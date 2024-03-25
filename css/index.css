@@ -1,31 +1,71 @@
+body {
+  background-image: url('../assets/healing.jpg');
+  background-size: cover; /* Adjust as needed */
+  /* Additional background properties can be added here */
+}
+
+
 .mtitle {
-    text-align: center;
+  text-align: center;
 }
-.script{
-    text-align: center;
+
+.script {
+  text-align: center;
 }
-@media (max-width: 768px){
-    .icon{
-      width: 100%;
-      padding-left: 30px; /* adjust padding as needed */
-      padding-right: 20px; /* adjust padding as needed */
-    }
-    .mtitle{
-        width: 100%;
-        padding-left: 30px; /* adjust padding as needed */
-        padding-right: 20px; /* adjust padding as needed */
-      }
-    }
+.center-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .icon {
+    width: 100%;
+    padding-left: 30px; /* adjust padding as needed */
+    padding-right: 20px; /* adjust padding as needed */
     
-    @media (max-width: 480px) {
-      icon{
-        width: 100%;
-        padding-left: 30px; /* adjust padding as needed */
-        padding-right: 20px; /* adjust padding as needed */
-      }}
-      .mtitle{
-        width: 100%;
-        padding-left: 30px; /* adjust padding as needed */
-        padding-right: 20px; /* adjust padding as needed */
-      }
-     
+  }
+
+  .mtitle {
+    width: 100%;
+    padding-left: 30px; /* adjust padding as needed */
+    padding-right: 20px; /* adjust padding as needed */
+  }
+
+  body,
+  .background-image {
+    background-size: 100% 100%; /* Adjust as needed for smaller screens */
+  }
+  .center-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .icon {
+    width: 100%;
+    padding-left: 30px; /* adjust padding as needed */
+    padding-right: 20px; /* adjust padding as needed */
+  }
+  body,
+  .background-image {
+    background-size: 100% 100%; /* Adjust as needed for smaller screens */
+  }
+  .center-image {
+    max-width: 100%;
+    height: auto;
+  }
+}
+.mtext {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+  padding: 20px; /* Add padding to create space between text and background */
+}
+
+.mtitle {
+  width: 100%;
+  padding-left: 30px; /* adjust padding as needed */
+  padding-right: 20px; /* adjust padding as needed */
+}
