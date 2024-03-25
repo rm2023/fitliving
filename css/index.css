@@ -9,6 +9,10 @@ body {
   padding-left: 30px;
   padding-right: 20px;
 }
+.open{
+  text-align: center;
+  color: red;
+}
 
 .center-image {
   max-width: 100%;
