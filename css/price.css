@@ -1,0 +1,18 @@
+
+.background-image {
+    background-image: url('../assets/2ndpage.jpeg'); /* Adjust the path to your image file */
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* This will prevent the background from repeating */
+    background-attachment: fixed; /* This will fix the background image in place */
+}
+.container {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    border: 20px;
+  }
+  
+  .containerwrapper {
+    padding: 20px;
+  }
+  

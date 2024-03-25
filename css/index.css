@@ -1,17 +1,15 @@
 body {
   background-image: url('../assets/healing.jpg');
-  background-size: cover; /* Adjust as needed */
-  /* Additional background properties can be added here */
+  background-size: 100% 100%;
 }
-
 
 .mtitle {
   text-align: center;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 
-.script {
-  text-align: center;
-}
 .center-image {
   max-width: 100%;
   height: auto;
@@ -19,53 +17,47 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 20px;
+  border: 20px;
+}
+
+.containerwrapper {
+  padding: 20px;
+}
+
 @media (max-width: 768px) {
-  .icon {
-    width: 100%;
-    padding-left: 30px; /* adjust padding as needed */
-    padding-right: 20px; /* adjust padding as needed */
-    
-  }
-
   .mtitle {
-    width: 100%;
-    padding-left: 30px; /* adjust padding as needed */
-    padding-right: 20px; /* adjust padding as needed */
+    padding-left: 30px;
+    padding-right: 20px;
   }
 
-  body,
-  .background-image {
-    background-size: 100% 100%; /* Adjust as needed for smaller screens */
+  .container {
+    padding-left: 30px;
+    padding-right: 20px;
   }
+
   .center-image {
-    max-width: 100%;
-    height: auto;
+    max-width: 80%;
+    /* Adjust as needed */
   }
 }
+  @media (max-width: 480px) {
+    .container {
+      padding-left: 30px;
+      padding-right: 20px;
+    }
 
-@media (max-width: 480px) {
-  .icon {
-    width: 100%;
-    padding-left: 30px; /* adjust padding as needed */
-    padding-right: 20px; /* adjust padding as needed */
-  }
-  body,
-  .background-image {
-    background-size: 100% 100%; /* Adjust as needed for smaller screens */
-  }
-  .center-image {
-    max-width: 100%;
-    height: auto;
-  }
-}
-.mtext {
-  position: relative;
-  background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
-  padding: 20px; /* Add padding to create space between text and background */
-}
+    .mtitle {
+      padding-left: 30px;
+      padding-right: 20px;
 
-.mtitle {
-  width: 100%;
-  padding-left: 30px; /* adjust padding as needed */
-  padding-right: 20px; /* adjust padding as needed */
-}
+    }
+
+    .center-image {
+      max-width: 80%;
+      /* Adjust as needed */
+    }
+  }
