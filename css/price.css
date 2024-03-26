@@ -1,11 +1,7 @@
-.body {
-    background-image: url('../assets/2ndpage.jpeg');
-    background-size: 100% 100%;
 
-}
 
 .background-image {
-    background-image: url('../assets/2ndpage.jpeg'); /* Adjust the path to your image file */
+    background-image: url('../assets/m10.png'); /* Adjust the path to your image file */
     background-size: cover; /* This will cover the entire background */
     background-repeat: no-repeat; /* This will prevent the background from repeating */
     background-attachment: fixed; /* This will fix the background image in place */
@@ -20,4 +16,6 @@
   .containerwrapper {
     padding: 20px;
   }
-  
+  .text{
+    padding-left: 50px;
+  }
