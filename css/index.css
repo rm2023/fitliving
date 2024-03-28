@@ -1,5 +1,5 @@
 .background-image {
-  background-image: url('../assets/m9.png'); /* Adjust the path to your image file */
+  background-image: url('../assets/m5.png'); /* Adjust the path to your image file */
   background-size: cover; /* This will cover the entire background */
   background-repeat: no-repeat; /* This will prevent the background from repeating */
   background-attachment: fixed; /* This will fix the background image in place */
@@ -28,6 +28,7 @@
   padding: 20px;
   border-radius: 20px;
   border: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .containerwrapper {
@@ -49,6 +50,12 @@
     max-width: 80%;
     /* Adjust as needed */
   }
+  .background-image {
+    background-image: url('../assets/m5.png'); /* Adjust the path to your image file */
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* This will prevent the background from repeating */
+    background-attachment: fixed; /* This will fix the background image in place */
+  }
 }
   @media (max-width: 480px) {
     .container {
@@ -65,5 +72,11 @@
     .center-image {
       max-width: 80%;
       /* Adjust as needed */
+    }
+    .background-image {
+      background-image: url('../assets/m5.png'); /* Adjust the path to your image file */
+      background-size: cover; /* This will cover the entire background */
+      background-repeat: no-repeat; /* This will prevent the background from repeating */
+      background-attachment: fixed; /* This will fix the background image in place */
     }
   }

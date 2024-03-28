@@ -19,3 +19,21 @@
   .text{
     padding-left: 50px;
   }
+
+
+  @media (max-width: 768px) {
+    .background-image {
+    background-image: url('../assets/m10.png'); /* Adjust the path to your image file */
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* This will prevent the background from repeating */
+    background-attachment: fixed; /* This will fix the background image in place */
+    }
+  }
+  @media (max-width: 480px) {
+    .background-image {
+    background-image: url('../assets/m10.png'); /* Adjust the path to your image file */
+    background-size: cover; /* This will cover the entire background */
+    background-repeat: no-repeat; /* This will prevent the background from repeating */
+    background-attachment: fixed; /* This will fix the background image in place */
+    }
+  }
