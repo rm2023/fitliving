@@ -134,10 +134,12 @@
         window.onload = function () {
             document.getElementById('contact-form').addEventListener('submit', function (event) {
                 event.preventDefault();
+                var form = this; // Store a reference to the form
                 this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('service_htlzwu8', 'template_wxqw0bb', this)
+                emailjs.sendForm('service_eo3u4rs', 'template_58gm3np', this)
                     .then(function () {
                         document.getElementById('confirmation-message').style.display = 'block';
+                        form.reset(); // Reset the form
                     }, function (error) {
                         console.log('FAILED...', error);
                     });
