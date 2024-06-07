@@ -45,14 +45,13 @@
     padding-left: 30px;
     padding-right: 20px;
   }
-
   .container {
     padding-left: 30px;
     padding-right: 20px;
   }
-
   .center-image {
-    max-width: 80%;
+    max-width: 100%;
+    border-radius: 10px;
     /* Adjust as needed */
   }
   .background-image {
@@ -66,21 +65,19 @@
     padding-right: 0px;
   }
 }
+
   @media (max-width: 480px) {
     .container {
       padding-left: 30px;
       padding-right: 20px;
     }
-
     .mtitle {
       padding-left: 30px;
-      padding-right: 20px;
-      
-
+      padding-right: 20px;      
     }
-
     .center-image {
       max-width: 100%;
+      border-radius: 10px;
       /* Adjust as needed */
     }
     .background-image {
